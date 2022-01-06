@@ -35,3 +35,15 @@ During my studies, my main goal is to acquire skills and knowledge that will be 
 </body>
 </html>
 ```
+## Education
+National University of Life and Environmental Sciences
+
+## Experience
+Senior manager in a grocery store
+
+## Languages
+* Ukrain
+* English A+
+**I'm learning English on a duolingo site**
+
+![/](rs_school-og)
