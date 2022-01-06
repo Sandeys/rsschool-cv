@@ -46,4 +46,4 @@ Senior manager in a grocery store
 * English A+
 **I'm learning English on a duolingo site**
 
-![/](rs_school-og)
+![icon](https://github.com/Sandeys/rsschool-cv/blob/gh-pages/rs_school-og.png)
