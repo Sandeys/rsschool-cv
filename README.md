@@ -1,1 +1,1 @@
-https://Sandeys.github.io/rsschool-cv/
+https://sandeys.github.io/rsschool-cv/cv
