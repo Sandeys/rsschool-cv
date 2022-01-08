@@ -1,3 +1,59 @@
-.Sandeys {
-    background-color: blue;
+/*основні функції і шрифти основних елементів сторінки*/
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: darkgrey;
+
+    background-color: cyan;
+}
+/*стиль логотипу*/
+.logo {
+    min-width: 80%;
+    font-family: 'Lato', sans-serif; 
+    font-size: 35px;
+    color: white;
+    background-color: black;
+
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+/*висота всіх заголовків 0*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+/*для всіх елементів сторінки та для псевдоелементів before і after*/
+*,
+*:after,
+*:before {
+    box-sizing: border-box; /*для того щоб не рахувати відступи для кожного з елементів*/
+}
+/*стиль для контейнера*/
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/*Стиль дня основи сторінки. по всій ширині екрана*/
+.main {
+    width: 100%;
+    height: 100vh; /*на відстань висоти екрану браузера*/
+
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
