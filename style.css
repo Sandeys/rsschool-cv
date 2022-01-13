@@ -1,16 +1,18 @@
 /*основні функції і шрифти основних елементів сторінки*/
 body{
-    width: 798px;
-    margin: 0;
+    max-width: 798px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Quicksand', sans-serif;
-
     font-size: 16px;
     line-height: 1.6;
     color: rgb(28, 0, 59);
 
 }
 .header {
-    width: 100%;
+    max-width: 798px;
+    margin-left: auto;
+    margin-right: auto;
     position:absolute;
     top: 0;
     left: 0;
@@ -18,16 +20,8 @@ body{
     z-index: 10;
 }
 
-/*для всіх елементів сторінки та для псевдоелементів before і after*/
-*,
-*:after,
-*:before {
-    box-sizing: border-box; /*для того щоб не рахувати відступи для кожного з елементів*/
-}
-
 /*стиль для контейнера*/
 .container {
-    width: 100%;
     max-width: 798px;
     margin: 0 auto;
 
@@ -47,12 +41,12 @@ body{
 
 /*основний блок резюме*/
 .main_blokc {
-    width: 100%;
+    max-width: 798px;
     display: flex;
 }
 
 .avatar {
-    margin-top: 0px;
+    margin-top:35px;
     margin-right: 0px;
 }
 
@@ -84,7 +78,7 @@ body{
 }
 .left_blokc {
     width: 30%;
-    height: 800vh; /*на відстань висоти екрану браузера*/
+    max-height: 1005px; /*на відстань висоти екрану браузера*/
 
     background-color: rgb(155, 183, 236);
     flex-direction: row;
@@ -93,7 +87,7 @@ body{
 /*правий блок резюме*/
 .right_blokc {
     width: 70%;
-    height: 800vh; /*на відстань висоти екрану браузера*/
+    max-height: 980px; /*на відстань висоти екрану браузера*/
     
     margin: 55px;
     background-color: white;
@@ -123,4 +117,13 @@ body{
     margin-top: 15px;
     height: 5px;
     background-color: rgb(155, 183, 236);
+}
+.footer {
+    margin-bottom: 15px;
+    margin-top: -35px;
+    min-width: 111%;
+    font-family: 'Lato', sans-serif; 
+    font-size: 35px;
+    color: white;
+    background-color: black;
 }
