@@ -78,7 +78,7 @@ body{
 }
 .left_blokc {
     width: 30%;
-    max-height: 1005px; /*на відстань висоти екрану браузера*/
+    max-height: 974px; /*на відстань висоти екрану браузера*/
 
     background-color: rgb(155, 183, 236);
     flex-direction: row;
